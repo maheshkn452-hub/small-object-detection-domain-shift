@@ -10,6 +10,11 @@ This Master's thesis investigates the robustness of modern object detection arch
 * **Datasets:** VisDrone, MS COCO
 * **Frameworks & Libraries:** Python, PyTorch, Albumentations
 
+## Datasets
+Raw image datasets are excluded from this repository due to GitHub file size limits. Experiments are conducted using standard public object detection benchmarks:
+* **VisDrone2019-DET** (aerial/drone small-object benchmark)
+* **MS COCO** (general-purpose object detection benchmark)
+
 ## Repository Contents
 * `src/` / scripts — Training, inference, and domain-shift evaluation pipelines
 * `augmentations/` — Albumentations configurations for small-object robustness
