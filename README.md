@@ -14,6 +14,15 @@ This Master's thesis investigates the robustness of modern object detection arch
 Raw image datasets are excluded from this repository due to GitHub file size limits. Experiments are conducted using standard public object detection benchmarks:
 * **VisDrone2019-DET** (aerial/drone small-object benchmark)
 * **MS COCO** (general-purpose object detection benchmark)
+## Datasets & Expected Directory Structure
+Raw dataset archives are excluded from this repository due to file size limits. To reproduce experiments, download the standard **VisDrone2019-DET** and **MS COCO 2017** splits and place them in the following directory structure:
+
+```text
+data/
+├── VisDrone2019-DET-train/
+├── VisDrone2019-DET-val/
+├── annotations_trainval2017/
+└── val2017/
 
 ## Repository Contents
 * `src/` / scripts — Training, inference, and domain-shift evaluation pipelines
