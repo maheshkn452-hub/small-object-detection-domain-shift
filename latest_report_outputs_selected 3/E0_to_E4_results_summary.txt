@@ -1,0 +1,40 @@
+
+Final Experimental Results Summary
+
+E0 Baseline 640:
+VisDrone mAP50 = 0.364
+VisDrone mAP50-95 = 0.202
+COCO-small mAP50 = 0.0276
+COCO-small mAP50-95 = 0.0105
+Domain gap = 0.1915
+
+E1 Resolution 960:
+VisDrone mAP50 = 0.457
+VisDrone mAP50-95 = 0.270
+COCO-small mAP50 = 0.0493
+COCO-small mAP50-95 = 0.0219
+Domain gap = 0.2481
+
+E2 Mosaic Disabled:
+VisDrone mAP50 = 0.347
+VisDrone mAP50-95 = 0.192
+COCO-small mAP50 = 0.0280
+COCO-small mAP50-95 = 0.0106
+Domain gap = 0.1814
+
+E3 Appearance Augmentation:
+VisDrone mAP50 = 0.344
+VisDrone mAP50-95 = 0.191
+COCO-small mAP50 = 0.0255
+COCO-small mAP50-95 = 0.00939
+Domain gap = 0.1816
+
+E4 Scale Augmentation:
+VisDrone mAP50 = 0.345
+VisDrone mAP50-95 = 0.191
+COCO-small mAP50 = 0.0245
+COCO-small mAP50-95 = 0.00968
+Domain gap = 0.1813
+
+Main finding:
+E1, higher image resolution 960, achieved the best performance.
